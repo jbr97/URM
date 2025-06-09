@@ -21,7 +21,13 @@ We thank the following projects: [MPCount](https://github.com/Shimmer93/MPCount)
 If you find this repository useful for your research, please use the following:
 
 ```
-
+@inproceedings{chen2025single,
+  title={Single Domain Generalization for Few-Shot Counting via Universal Representation Matching},
+  author={Chen, Xianing and Huo, Si and Jiang, Borui and Hu, Hailin and Chen, Xinghao},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={4639--4649},
+  year={2025}
+}
 @inproceedings{peng2024single,
   title={Single domain generalization for crowd counting},
   author={Peng, Zhuoxuan and Chan, S-H Gary},
