@@ -1,8 +1,6 @@
 
 ## Requirements
 * Python 3.10.12
-* Mindspore 2.5.0
-* mindcv 
 * Others specified in [requirements.txt](requirements.txt)
 
 ## Data Preparation
