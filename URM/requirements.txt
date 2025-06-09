@@ -1,0 +1,17 @@
+mindspore==2.5.0
+mindcv
+timm
+Pillow==5.3.0
+easydict
+pandas
+opencv-python
+scipy
+pyyaml
+loralib
+regex
+ftfy
+pycocotools
+thop
+yacs
+
+

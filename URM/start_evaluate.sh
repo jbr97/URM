@@ -1,0 +1,19 @@
+mpirun --nproc_per_node=1 evaluate_urm.py \
+    --backbone resnet50 \
+    --backbone_type swav \
+    --universal_prompts_layers 4 \
+    --universal_prompts_refine_layers 4\
+    --image_size 512 \
+    --val_batch_size 2 \
+    --val_image_size 512 \
+    --num_ope_iterative_steps 3 \
+    --pre_norm \
+    --language_distill_weight 0.9 \
+    --vision_distill_weight 0.1 \
+    --no_vanilla_prompt  \
+    --image_size 512 \
+    --val_data LVIS_FullPrompts_NoTill \
+    --val_data_path /cache/FSCD_LVIS/ \
+    --val_image_size 512 \
+    --model_path logs/debug/ \
+    --model_name loca_3_shot

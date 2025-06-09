@@ -1,0 +1,27 @@
+mpirun --nproc_per_node=1 train.py \
+    --num_workers 8 \
+    --backbone resnet50 \
+    --backbone_type swav \
+    --clip weights/CLIP/ViT-B-16.pt \
+    --universal_prompts_layers 4 \
+    --universal_prompts_refine_layers 4\
+    --epoch 400 \
+    --early_stop_epoch 120 \
+    --batch_size 2 \
+    --image_size 512 \
+    --val_batch_size 2 \
+    --val_image_size 512 \
+    --lr 0.0002 \
+    --scheduler cosine \
+    --weight_decay 0.02 \
+    --num_ope_iterative_steps 3 \
+    --pre_norm \
+    --language_distill_weight 0.9 \
+    --vision_distill_weight 0.1 \
+    --no_vanilla_prompt \
+    --data LVIS_FullPrompts_NoTill \
+    --data_path /cache/FSCD_LVIS/ \
+    --image_size 512 \
+    --val_data FSC147_FullPrompts_NoTill \
+    --val_data_path /cache/FSC147/ \
+    --val_image_size 512
