@@ -34,4 +34,17 @@ The training code is in the `train.py` script. `start_train.sh` and `start_train
 
 
 ## Acknowledgements
-We thank the following projects: [loca](https://github.com/djukicn/loca)
+We thank the following projects: [LOCA](https://github.com/djukicn/loca)
+
+## Citiation
+If you find this repository useful for your research, please use the following:
+
+```
+@inproceedings{chen2025single,
+  title={Single Domain Generalization for Few-Shot Counting via Universal Representation Matching},
+  author={Chen, Xianing and Huo, Si and Jiang, Borui and Hu, Hailin and Chen, Xinghao},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={4639--4649},
+  year={2025}
+}
+```
