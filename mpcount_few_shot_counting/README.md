@@ -11,7 +11,6 @@
 2.Download the FSCD_LVIS dataset as instructed in its [official repository](https://github.com/VinAIResearch/Counting-DETR).
 
 ## Training
-Run the following command:
 ```
 python main.py --task train --config configs/fsc147_lvis_train.yml
 ```
