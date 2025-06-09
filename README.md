@@ -8,5 +8,11 @@ We also released our implementation code of [MPCount](https://github.com/Shimmer
 If you find this repository useful for your research, please use the following:
 
 ```
-x
+@inproceedings{chen2025single,
+  title={Single Domain Generalization for Few-Shot Counting via Universal Representation Matching},
+  author={Chen, Xianing and Huo, Si and Jiang, Borui and Hu, Hailin and Chen, Xinghao},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={4639--4649},
+  year={2025}
+}
 ```
