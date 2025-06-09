@@ -12,7 +12,7 @@
 ```
 python main.py --task train --config configs/fsc147_lvis_train.yml
 ```
-You may edit the `.yml` config file as you like.
+You can edit the `.yml` config file as you like.
 
 ## Acknowledgements
 We thank the following projects: [MPCount](https://github.com/Shimmer93/MPCount),[LOCA](https://github.com/djukicn/loca)
