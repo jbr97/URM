@@ -6,7 +6,7 @@
 
 ### Install the libraries
 
-To run the code, install the following libraries: `torch 1.10.0`, and.
+To run the code, install the following libraries: `torch 1.10.0` and others specified in [requirements.txt](requirements.txt).
 
 ## Data Preparation
 1.Download the FSC147 dataset as instructed in its [official repository](https://github.com/cvlab-stonybrook/LearningToCountEverything).
