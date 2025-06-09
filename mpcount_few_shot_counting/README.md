@@ -18,3 +18,10 @@ You may edit the `.yml` config file as you like.
 
 ## Acknowledgements
 We thank the following projects: [MPCount](https://github.com/Shimmer93/MPCount),[loca](https://github.com/djukicn/loca)
+
+## Citiation
+If you find this repository useful for your research, please use the following:
+
+```
+x
+```
