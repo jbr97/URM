@@ -21,5 +21,12 @@ We thank the following projects: [MPCount](https://github.com/Shimmer93/MPCount)
 If you find this repository useful for your research, please use the following:
 
 ```
-x
+
+@inproceedings{peng2024single,
+  title={Single domain generalization for crowd counting},
+  author={Peng, Zhuoxuan and Chan, S-H Gary},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={28025--28034},
+  year={2024}
+}
 ```
