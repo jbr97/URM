@@ -10,6 +10,7 @@ To run the code, install the following libraries: `Mindspore 2.5.0`, `mindcv`, `
 
 ## Data Preparation
 1.Download the FSC147 dataset as instructed in its [official repository](https://github.com/cvlab-stonybrook/LearningToCountEverything).
+
 2.Download the FSCD_LVIS dataset as instructed in its [official repository](https://github.com/VinAIResearch/Counting-DETR).
 
 
